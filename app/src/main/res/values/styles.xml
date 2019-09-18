@@ -11,6 +11,7 @@
         <item name="android:textColorPrimaryInverse">@android:color/transparent</item>
         <item name="android:navigationBarColor">@color/Black</item>
         <item name="android:colorForeground">@color/White</item>
+        <item name="android:windowTranslucentStatus"> true </item>
     </style>
 
 </resources>
