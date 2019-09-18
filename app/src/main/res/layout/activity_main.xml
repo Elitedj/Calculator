@@ -6,12 +6,11 @@
     android:background="#ffffff">
 
     <EditText
+        android:id="@+id/edittext"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:background="@null"
-        android:cursorVisible="false"
-        android:focusable="false"
         android:gravity="right|bottom"
         android:paddingRight="10dp"
         android:scrollbars="vertical"
@@ -41,7 +40,7 @@
                 android:text="C"
                 android:textColor="@color/White"
                 android:textSize="36dp"
-                android:background="@drawable/FunButtonItem"
+                android:background="@drawable/funbuttonitem"
                 />
 
             <ImageButton
@@ -53,7 +52,7 @@
                 android:textSize="24dp"
                 android:textColor="@color/White"
                 android:src="@drawable/ic_back"
-                android:background="@drawable/FunButtonItem"
+                android:background="@drawable/funbuttonitem"
                 />
 
             <Button
@@ -64,7 +63,7 @@
                 android:text="( )"
                 android:textColor="@color/White"
                 android:textSize="24dp"
-                android:background="@drawable/FunButtonItem"
+                android:background="@drawable/funbuttonitem"
                 />
 
             <Button
@@ -75,7 +74,7 @@
                 android:text="÷"
                 android:textColor="@color/White"
                 android:textSize="40dp"
-                android:background="@drawable/FunButtonItem"
+                android:background="@drawable/funbuttonitem"
                 />
 
         </LinearLayout>
@@ -92,8 +91,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="7"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -102,8 +102,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="8"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -112,8 +113,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="9"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -124,7 +126,7 @@
                 android:text="×"
                 android:textColor="@color/White"
                 android:textSize="40dp"
-                android:background="@drawable/FunButtonItem"
+                android:background="@drawable/funbuttonitem"
                 />
 
         </LinearLayout>
@@ -141,8 +143,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="4"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -151,8 +154,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="5"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -161,8 +165,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="6"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -173,7 +178,7 @@
                 android:text="—"
                 android:textColor="@color/White"
                 android:textSize="40dp"
-                android:background="@drawable/FunButtonItem"
+                android:background="@drawable/funbuttonitem"
                 />
 
         </LinearLayout>
@@ -190,8 +195,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="1"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -200,8 +206,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="2"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -210,8 +217,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="3"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -222,7 +230,7 @@
                 android:text="+"
                 android:textColor="@color/White"
                 android:textSize="40dp"
-                android:background="@drawable/FunButtonItem"
+                android:background="@drawable/funbuttonitem"
                 />
 
         </LinearLayout>
@@ -239,8 +247,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:text="0"
+                android:textColor="@color/Black"
                 android:textSize="24dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -249,8 +258,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="·"
+                android:textColor="@color/Black"
                 android:textSize="36dp"
-                android:background="@drawable/NumberButtonItem"
+                android:background="@drawable/numberbuttonitem"
                 />
 
             <Button
@@ -261,7 +271,7 @@
                 android:text="="
                 android:textColor="@color/White"
                 android:textSize="40dp"
-                android:background="@drawable/OtherButtonItem"
+                android:background="@drawable/otherbuttonitem"
                 />
 
         </LinearLayout>
