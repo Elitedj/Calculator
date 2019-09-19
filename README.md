@@ -1,3 +1,3 @@
 Sample Calculator
 
-![a](a.jpg)
+![a](./images/a.jpg)
