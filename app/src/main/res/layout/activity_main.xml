@@ -17,7 +17,9 @@
         android:scrollbars="vertical"
         android:text="0"
         android:textColor="@color/White"
-        android:textSize="48sp" />
+        android:textSize="48dp"
+        android:focusable="false"
+        android:cursorVisible="false"/>
 
 
     <LinearLayout
@@ -220,7 +222,7 @@
                     />
 
                 <Button
-                    android:id="@+id/dop"
+                    android:id="@+id/dot"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
