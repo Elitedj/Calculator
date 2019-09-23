@@ -34,7 +34,7 @@ import java.util.Stack;
  * @param haveNonzeroNumStack In order to rollback haveNonzeroNum
  * @param haveZeroStack In order to rollback haveZero
  *
- * @version 1.0
+ * @version 2.0
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -613,7 +613,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case '+' : return num1.add(num2);
             case '-' : return num1.subtract(num2);
             case '×' : return num1.multiply(num2);
-            case '÷' : return num1.divide(num2);
+            case '÷' : try{
+                 return num1.divide(num2);
+            }catch (Exception e)
+            {
+                return num1.divide(num2, 8, BigDecimal.ROUND_HALF_UP);
+            }
         }
         return new BigDecimal(-1);
     }
@@ -679,6 +684,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             else{
                 BigDecimal num2 = number.pop();
                 BigDecimal num1 = number.pop();
+
 
                 if(temp == '÷' && num2.equals(new BigDecimal(0))){
                     return new StringBuffer("Error");
